@@ -7,6 +7,5 @@ links:
   Staging: "http://10.0.0.110:80/kubernetes/pods?namespace=default-staging"
   Testing: "http://10.0.0.110:80/kubernetes/pods?namespace=default-testing"
 environments:
-  Testing: "default-testing"
   Staging: "default-staging"
-  Production: "default-prod"
+useLocalFlow: true
